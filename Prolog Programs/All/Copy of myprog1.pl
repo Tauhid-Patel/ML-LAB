@@ -1,0 +1,1 @@
+main :- write('Welcome to the world of PROLOG').

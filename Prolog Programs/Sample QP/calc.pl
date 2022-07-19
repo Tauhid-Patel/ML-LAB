@@ -1,0 +1,15 @@
+calc(X,Y):-
+	A is X+Y,
+	write('Addition='),write(A),nl,
+	B is X-Y,
+	write('Subtraction='),write(B),nl,
+	C is X*Y,
+	write('Multiplication='),write(C),nl,
+	D is X/Y,
+	write('Division='),write(D),nl,
+	E is X//Y,
+	write('Integer Division='),write(E),nl,
+	F is X**Y,
+	write('Power='),write(F),nl,
+	G is X mod Y,
+	write('Modulus='),write(G),nl.
